@@ -1,0 +1,49 @@
+.single-airplane-card {
+  border: 1px solid #777;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.airplane-name {
+  font-size: 1.5rem;
+  width: 11rem;
+  margin: auto;
+}
+
+.vote {
+  font-size: 1.3rem;
+
+  &.title {
+    padding-bottom: 0.4rem;
+  }
+}
+
+.button {
+  font-size: 1.15rem;
+  margin: 0 0.6rem;
+  border-radius: 0.3rem;
+  padding: 0.6rem;
+  color: white;
+  outline: none;
+
+  &.thumbs-up {
+    background-color: #5cb85c;
+  }
+
+  &.thumbs-down {
+    background-color: #d9534f;
+  }
+
+  &:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 0.4rem 0.7rem rgba(0, 0, 0, 0.3);
+  }
+
+  &:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.15);
+  }
+}
